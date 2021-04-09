@@ -29,9 +29,16 @@ body{
     float: right;
     list-style: none;
 }
-.navbar li a{
-    color: white;
+.titulos{
+    color: rgb(0, 0, 255);
     text-decoration:none;
+}
+a:hover{
+    font-weight: 700;
+}
+.textdecoration{
+    text-decoration:none;
+    color: white;
 }
 .titulo{
     float: left;
@@ -42,9 +49,6 @@ li{
     float: left;
     margin-left: 10px;
     text-transform: uppercase;
-}
-.titulos{
-    color: rgb(0, 0, 255);
 }
 .container h2{
     text-align: center;
@@ -60,7 +64,7 @@ li{
 .banner{
     text-align: center;
     background-color: #B1B1B1;
-    background-image: url(images/banner-fundo-small.jpg);
+    background-image: url(../images/banner-fundo-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
